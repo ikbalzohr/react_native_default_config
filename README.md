@@ -24,11 +24,19 @@
    npm run prepare
    ```
 
-3. Start the app
+4. Build app before start
+   If you haven't used svg yet skip this step
+
+   ```bash
+   npx expo prebuild --clean
+   npx expo run:android
+   ```
+
+5. Start the app
 
    `Ctrl + F5` for Visual Studio Code
    or use command
+
    ```bash
     npx expo start
    ```
-
